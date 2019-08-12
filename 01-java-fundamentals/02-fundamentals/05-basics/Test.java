@@ -1,7 +1,8 @@
 import java.util.ArrayList;
-public class Test{
+
+public class Test {
     public static void main(String[] args) {
-        int[] arr = {1,-3,5,7,9,-13};
+        int[] arr = { 1, -3, 5, 7, 9, -13 };
         BasicJava iD = new BasicJava();
         iD.printNum();
         iD.printOddNum();
