@@ -34,7 +34,8 @@ public class HomeController {
 	public String time(Model model) {
 		Date time= new Date();
 		String timePattern="hh:mma";
-		SimpleDateFormat timeFormat= new SimpleDateFormat(timePattern);		String strTime = timeFormat.format(time);
+		SimpleDateFormat timeFormat= new SimpleDateFormat(timePattern);
+		String strTime = timeFormat.format(time);
 		model.addAttribute("timeToView",timeFormat.format(time));
 		
 		return "time.jsp";
